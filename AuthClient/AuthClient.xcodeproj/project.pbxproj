@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8657B8262A15C9B80065EF04 /* AuthClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B8252A15C9B80065EF04 /* AuthClientApp.swift */; };
-		8657B8282A15C9B80065EF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B8272A15C9B80065EF04 /* ContentView.swift */; };
 		8657B82A2A15C9B90065EF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B8292A15C9B90065EF04 /* Assets.xcassets */; };
 		8657B82D2A15C9B90065EF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */; };
 		8657B8352A15CA300065EF04 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 8657B8342A15CA300065EF04 /* Auth0 */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		8657B8222A15C9B80065EF04 /* AuthClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8657B8252A15C9B80065EF04 /* AuthClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClientApp.swift; sourceTree = "<group>"; };
-		8657B8272A15C9B80065EF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8657B8292A15C9B90065EF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8657B8362A15CABE0065EF04 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				8657B8382A15CABE0065EF04 /* User.swift */,
 				8657B83C2A15CAD40065EF04 /* Auth0.plist */,
 				8657B8252A15C9B80065EF04 /* AuthClientApp.swift */,
-				8657B8272A15C9B80065EF04 /* ContentView.swift */,
 				8657B8292A15C9B90065EF04 /* Assets.xcassets */,
 				8657B82B2A15C9B90065EF04 /* Preview Content */,
 			);
@@ -161,7 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8657B83A2A15CABE0065EF04 /* ProfileView.swift in Sources */,
-				8657B8282A15C9B80065EF04 /* ContentView.swift in Sources */,
 				8657B8392A15CABE0065EF04 /* MainView.swift in Sources */,
 				8657B83B2A15CABE0065EF04 /* User.swift in Sources */,
 				8657B8262A15C9B80065EF04 /* AuthClientApp.swift in Sources */,
