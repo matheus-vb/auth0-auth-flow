@@ -222,4 +222,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 *.xcconfig
-*/Auth0.plist
+AuthClient/AuthClient/Auth0.plist
