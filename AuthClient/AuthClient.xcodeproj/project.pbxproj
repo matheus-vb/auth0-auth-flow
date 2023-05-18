@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8657B80C2A15C7DA0065EF04 /* AuthClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B80B2A15C7DA0065EF04 /* AuthClientApp.swift */; };
-		8657B80E2A15C7DA0065EF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B80D2A15C7DA0065EF04 /* ContentView.swift */; };
-		8657B8102A15C7DC0065EF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B80F2A15C7DC0065EF04 /* Assets.xcassets */; };
-		8657B8132A15C7DC0065EF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B8122A15C7DC0065EF04 /* Preview Assets.xcassets */; };
+		8657B8262A15C9B80065EF04 /* AuthClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B8252A15C9B80065EF04 /* AuthClientApp.swift */; };
+		8657B8282A15C9B80065EF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B8272A15C9B80065EF04 /* ContentView.swift */; };
+		8657B82A2A15C9B90065EF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B8292A15C9B90065EF04 /* Assets.xcassets */; };
+		8657B82D2A15C9B90065EF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8657B8082A15C7DA0065EF04 /* AuthClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8657B80B2A15C7DA0065EF04 /* AuthClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClientApp.swift; sourceTree = "<group>"; };
-		8657B80D2A15C7DA0065EF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8657B80F2A15C7DC0065EF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8657B8122A15C7DC0065EF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8657B8222A15C9B80065EF04 /* AuthClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8657B8252A15C9B80065EF04 /* AuthClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClientApp.swift; sourceTree = "<group>"; };
+		8657B8272A15C9B80065EF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8657B8292A15C9B90065EF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8657B8052A15C7DA0065EF04 /* Frameworks */ = {
+		8657B81F2A15C9B80065EF04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8657B7FF2A15C7DA0065EF04 = {
+		8657B8192A15C9B80065EF04 = {
 			isa = PBXGroup;
 			children = (
-				8657B80A2A15C7DA0065EF04 /* AuthClient */,
-				8657B8092A15C7DA0065EF04 /* Products */,
+				8657B8242A15C9B80065EF04 /* AuthClient */,
+				8657B8232A15C9B80065EF04 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8657B8092A15C7DA0065EF04 /* Products */ = {
+		8657B8232A15C9B80065EF04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8657B8082A15C7DA0065EF04 /* AuthClient.app */,
+				8657B8222A15C9B80065EF04 /* AuthClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8657B80A2A15C7DA0065EF04 /* AuthClient */ = {
+		8657B8242A15C9B80065EF04 /* AuthClient */ = {
 			isa = PBXGroup;
 			children = (
-				8657B80B2A15C7DA0065EF04 /* AuthClientApp.swift */,
-				8657B80D2A15C7DA0065EF04 /* ContentView.swift */,
-				8657B80F2A15C7DC0065EF04 /* Assets.xcassets */,
-				8657B8112A15C7DC0065EF04 /* Preview Content */,
+				8657B8252A15C9B80065EF04 /* AuthClientApp.swift */,
+				8657B8272A15C9B80065EF04 /* ContentView.swift */,
+				8657B8292A15C9B90065EF04 /* Assets.xcassets */,
+				8657B82B2A15C9B90065EF04 /* Preview Content */,
 			);
 			path = AuthClient;
 			sourceTree = "<group>";
 		};
-		8657B8112A15C7DC0065EF04 /* Preview Content */ = {
+		8657B82B2A15C9B90065EF04 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8657B8122A15C7DC0065EF04 /* Preview Assets.xcassets */,
+				8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8657B8072A15C7DA0065EF04 /* AuthClient */ = {
+		8657B8212A15C9B80065EF04 /* AuthClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8657B8162A15C7DC0065EF04 /* Build configuration list for PBXNativeTarget "AuthClient" */;
+			buildConfigurationList = 8657B8302A15C9B90065EF04 /* Build configuration list for PBXNativeTarget "AuthClient" */;
 			buildPhases = (
-				8657B8042A15C7DA0065EF04 /* Sources */,
-				8657B8052A15C7DA0065EF04 /* Frameworks */,
-				8657B8062A15C7DA0065EF04 /* Resources */,
+				8657B81E2A15C9B80065EF04 /* Sources */,
+				8657B81F2A15C9B80065EF04 /* Frameworks */,
+				8657B8202A15C9B80065EF04 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = AuthClient;
 			productName = AuthClient;
-			productReference = 8657B8082A15C7DA0065EF04 /* AuthClient.app */;
+			productReference = 8657B8222A15C9B80065EF04 /* AuthClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8657B8002A15C7DA0065EF04 /* Project object */ = {
+		8657B81A2A15C9B80065EF04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					8657B8072A15C7DA0065EF04 = {
+					8657B8212A15C9B80065EF04 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 8657B8032A15C7DA0065EF04 /* Build configuration list for PBXProject "AuthClient" */;
+			buildConfigurationList = 8657B81D2A15C9B80065EF04 /* Build configuration list for PBXProject "AuthClient" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 8657B7FF2A15C7DA0065EF04;
-			productRefGroup = 8657B8092A15C7DA0065EF04 /* Products */;
+			mainGroup = 8657B8192A15C9B80065EF04;
+			productRefGroup = 8657B8232A15C9B80065EF04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8657B8072A15C7DA0065EF04 /* AuthClient */,
+				8657B8212A15C9B80065EF04 /* AuthClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8657B8062A15C7DA0065EF04 /* Resources */ = {
+		8657B8202A15C9B80065EF04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8657B8132A15C7DC0065EF04 /* Preview Assets.xcassets in Resources */,
-				8657B8102A15C7DC0065EF04 /* Assets.xcassets in Resources */,
+				8657B82D2A15C9B90065EF04 /* Preview Assets.xcassets in Resources */,
+				8657B82A2A15C9B90065EF04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8657B8042A15C7DA0065EF04 /* Sources */ = {
+		8657B81E2A15C9B80065EF04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8657B80E2A15C7DA0065EF04 /* ContentView.swift in Sources */,
-				8657B80C2A15C7DA0065EF04 /* AuthClientApp.swift in Sources */,
+				8657B8282A15C9B80065EF04 /* ContentView.swift in Sources */,
+				8657B8262A15C9B80065EF04 /* AuthClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8657B8142A15C7DC0065EF04 /* Debug */ = {
+		8657B82E2A15C9B90065EF04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		8657B8152A15C7DC0065EF04 /* Release */ = {
+		8657B82F2A15C9B90065EF04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		8657B8172A15C7DC0065EF04 /* Debug */ = {
+		8657B8312A15C9B90065EF04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		8657B8182A15C7DC0065EF04 /* Release */ = {
+		8657B8322A15C9B90065EF04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8657B8032A15C7DA0065EF04 /* Build configuration list for PBXProject "AuthClient" */ = {
+		8657B81D2A15C9B80065EF04 /* Build configuration list for PBXProject "AuthClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8657B8142A15C7DC0065EF04 /* Debug */,
-				8657B8152A15C7DC0065EF04 /* Release */,
+				8657B82E2A15C9B90065EF04 /* Debug */,
+				8657B82F2A15C9B90065EF04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8657B8162A15C7DC0065EF04 /* Build configuration list for PBXNativeTarget "AuthClient" */ = {
+		8657B8302A15C9B90065EF04 /* Build configuration list for PBXNativeTarget "AuthClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8657B8172A15C7DC0065EF04 /* Debug */,
-				8657B8182A15C7DC0065EF04 /* Release */,
+				8657B8312A15C9B90065EF04 /* Debug */,
+				8657B8322A15C9B90065EF04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8657B8002A15C7DA0065EF04 /* Project object */;
+	rootObject = 8657B81A2A15C9B80065EF04 /* Project object */;
 }
