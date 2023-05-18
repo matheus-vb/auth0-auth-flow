@@ -11,6 +11,7 @@
 		8657B8282A15C9B80065EF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657B8272A15C9B80065EF04 /* ContentView.swift */; };
 		8657B82A2A15C9B90065EF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B8292A15C9B90065EF04 /* Assets.xcassets */; };
 		8657B82D2A15C9B90065EF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657B82C2A15C9B90065EF04 /* Preview Assets.xcassets */; };
+		8657B8352A15CA300065EF04 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 8657B8342A15CA300065EF04 /* Auth0 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8657B8352A15CA300065EF04 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = AuthClient;
+			packageProductDependencies = (
+				8657B8342A15CA300065EF04 /* Auth0 */,
+			);
 			productName = AuthClient;
 			productReference = 8657B8222A15C9B80065EF04 /* AuthClient.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 8657B8192A15C9B80065EF04;
+			packageReferences = (
+				8657B8332A15CA300065EF04 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = 8657B8232A15C9B80065EF04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8657B8332A15CA300065EF04 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8657B8342A15CA300065EF04 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8657B8332A15CA300065EF04 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8657B81A2A15C9B80065EF04 /* Project object */;
 }
